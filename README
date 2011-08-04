@@ -1,0 +1,4 @@
+1. install mongodb
+2. > cd dir_to_stars
+3. > npm install -d
+4. > node app.js

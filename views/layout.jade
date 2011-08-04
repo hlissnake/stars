@@ -1,0 +1,16 @@
+!!!
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src="/javascripts/s/kissy.js")
+    script
+      KISSY.config({
+        packages : [{
+          name : "stars",
+          tag : "20110804",
+          path : "javascripts",
+          charset : "utf-8"
+        }]
+      });
+  body!= body
